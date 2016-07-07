@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <unistd.h.h>
 
 int ft_putchar (char c)
 {
@@ -8,14 +8,14 @@ int ft_putchar (char c)
 
 int ft_print_reverse_alphabet(void)
 {
-	char letter;
+	char i;
 	
-	letter = 'z';
+	 i = 'z';
 
-	while ( letter >= 'a')
+	while ( i >= 'a')
 	{
-		ft_putchar(letter);
-		letter--;
+		ft_putchar(i);
+		i--;
 	}
 
 	write (1,"\n",1);
